@@ -27,21 +27,21 @@ let m1={
     title:'asd',
     pageCount:330,
     genre:'novel',
-    author:{name:'RRR', age:39},
+    author:[{name:'RRR', age:39}],
 };
 console.log(m1);
 let m2={
     title:'asd',
     pageCount:330,
     genre:'novel',
-    author:{name:'RRR', age:39},
+    author:[{name:'RRR', age:39}],
 };
 console.log(m2);
 let m3={
     title:'asd',
     pageCount:330,
     genre:'novel',
-    author:{name:'RRR', age:39},
+    author:[{name:'RRR', age:39}],
 };
 console.log(m3);
 
@@ -59,4 +59,13 @@ user9={name:'Q',username:'J', password:999},
 user10={name:'R',username:'H', password:101},
 
 ]
-console.log(m10);
+console.log(user1.password);
+console.log(user2.password);
+console.log(user3.password);
+console.log(user4.password);
+console.log(user5.password);
+console.log(user6.password);
+console.log(user7.password);
+console.log(user8.password);
+console.log(user9.password);
+console.log(user10.password);
